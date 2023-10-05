@@ -9,7 +9,7 @@
       "baths": 2,
       "room_size_sqft": 700,
       "rent_price_per_night": 300,
-      "status": "popular",
+      "status": " no popular",
       "image": "sunset_beach_room_A1.jpg",
       "contact": {
         "phone": "+1-555-123-4567",
@@ -85,7 +85,7 @@
       "baths": 2,
       "room_size_sqft": 750,
       "rent_price_per_night": 400,
-      "status": "popular",
+      "status": "no popular",
       "image": "westminster_palace_room_W101.jpg",
       "contact": {
         "phone": "+44-20-5555-5555",
@@ -104,7 +104,7 @@
       "baths": 1,
       "room_size_sqft": 500,
       "rent_price_per_night": 200,
-      "status": "popular",
+      "status": " no popular",
       "image": "coastal_view_room_B1.jpg",
       "contact": {
         "phone": "+1-555-987-6543",
@@ -161,7 +161,7 @@
       "baths": 1,
       "room_size_sqft": 650,
       "rent_price_per_night": 375,
-      "status": "popular",
+      "status": " no popular",
       "image": "louvre_palace_room_L2.jpg",
       "contact": {
         "phone": "+33-1-555-1234-5678",

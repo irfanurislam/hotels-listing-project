@@ -28,6 +28,7 @@ const Properties = () => {
 
     const handleShowMore = () =>{
         setVisibleHotels(visibleHotels + loadMoreCount)
+        console.log(visibleHotels+ loadMoreCount)
     }
 
 
