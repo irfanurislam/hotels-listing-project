@@ -16,7 +16,13 @@ const router = createBrowserRouter([
 
       path:"/",
       element: <Home>thsi homepage</Home>
-    }]
+    },
+  {
+    path:'/info/:id',
+    element: <SinglehotelInfo></SinglehotelInfo>,
+     
+  }
+  ]
   },
 ]);
 
@@ -26,6 +32,7 @@ const router = createBrowserRouter([
 
 import './index.css'
 import Home from './components/Home.jsx';
+import SinglehotelInfo from './components/SinglehotelInfo.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

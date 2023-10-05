@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
         
         <header className="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
           <div className="flex-1 flex justify-between items-center">
-            <a href="#" className="text-xl">
+            <Link to="/" className="text-xl">
               Company
-            </a>
+            </Link>
           </div>
 
           <label for="menu-toggle" className="pointer-cursor md:hidden block">

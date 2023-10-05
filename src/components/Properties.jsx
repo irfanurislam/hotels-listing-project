@@ -43,7 +43,7 @@ const Properties = () => {
                <button className='btn btn-primary' onClick={() => filterHotelsByCountry('UK')}>London</button>
            </div>
 
-           <div className='grid grid-cols-3 gap-4'>
+           <div className='grid md:grid-cols-3 gap-4'>
            {
                 filteredHotels.slice(0, visibleHotels).map(hotel => <Property key={hotel.id} hotel={hotel}></Property>)
               }

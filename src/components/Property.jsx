@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLocationArrow,FaHome,FaBed ,FaArrowsAlt,FaBath, FaHeart} from "react-icons/fa";
 import {CiHeart} from 'react-icons/ci'
+import { Link } from "react-router-dom";
 const Property = ({hotel}) => {
     const {id,location,country,hotel_name,room_number,beds,baths,room_size_sqft,rent_price_per_night,status,image} = hotel
   return (
@@ -21,7 +22,7 @@ const Property = ({hotel}) => {
           <img
             src="https://i.ibb.co/ZS3W7Q8/p4.jpg"
             alt="Shoes"
-            className="rounded-xl"
+            className="rounded-xl min-h-full"
           />
           
          {status === "popular" && (
@@ -52,7 +53,7 @@ const Property = ({hotel}) => {
           <div className="card-actions flex justify-between items-center mt-5">
             <h3 className="text-xl font-semibold">${rent_price_per_night} / night</h3>
            <div className="flex gap-3 items-center justify-center">  
-           <button className="btn btn-primary rounded-xl   text-white text-base ">read more</button>
+           <Link to={`/info/${id}`}><button className="btn btn-primary rounded-xl   text-white text-base ">read more</button></Link>
            </div>
           </div>
         </div>
