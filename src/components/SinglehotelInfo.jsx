@@ -7,7 +7,7 @@ import {
   FaBath,
   FaArrowsAlt,
 } from "react-icons/fa";
-import { CiHeart } from "react-icons/ci";
+import { CiHeart, CiMail, CiMobile1 } from "react-icons/ci";
 
 const SinglehotelInfo = () => {
   const [hotelInfo, setHotelInfo] = useState([]);
@@ -48,7 +48,7 @@ const SinglehotelInfo = () => {
         <div>
           {selectedHotel ? (
             <div className="w-1/2 m-auto mt-20">
-              <div className="card w-96 bg-cyan-50 shadow-xl ">
+              <div className="card w-full min-h-full bg-cyan-50 shadow-xl ">
                 <figure className="relative">
                   <div className="flex justify-evenly items-center top-2">
                     <button className="absolute top-2 left-2 bg-white text-blue-800 px-3 py-1 rounded-md">
@@ -73,31 +73,32 @@ const SinglehotelInfo = () => {
                     </div>
                   )}
                 </figure>
-                <div className="card-body">
+                <div className="card-body px-0 py-5">
                   <h3 className="flex gap-2 items-center">
                     <FaLocationArrow /> {selectedHotel.location}
                   </h3>
                   <h2 className="card-title">{selectedHotel.hotel_name}</h2>
-                  <div className="flex gap-4 items-center py-5 ">
-                    <p>
-                      <FaHome />
-                      <span className="py-2">
-                        {selectedHotel.room_number} room
-                      </span>
+                  <p>{selectedHotel.description}</p>
+                    <div className="grid grid-cols-4 gap-4 mt-5">
+                    <FaHome />
+                    <FaBed />
+                    <FaBath />
+                    <FaArrowsAlt />
+                    </div>
+                    <div className="grid grid-cols-4 gap-4 mt-2">
+                        <p>   {selectedHotel.room_number} room</p>
+                        <p className="">{selectedHotel.beds} Bed</p>
+                        <p className="">{selectedHotel.baths} Bath</p>
+                        <p> <span className="">{selectedHotel.room_size_sqft}sqr feet</span></p>
+                    </div>
+
+                  
+                  <div>
+                    <p className="flex gap-2 items-center">
+                      <CiMobile1></CiMobile1>  {selectedHotel.contact.phone}
                     </p>
-                    <p>
-                      <FaBed />
-                      <span className="py-2">{selectedHotel.beds} Bed</span>
-                    </p>
-                    <p>
-                      <FaBath />
-                      <span className="py-2">{selectedHotel.baths} Bath</span>
-                    </p>
-                    <p>
-                      <FaArrowsAlt />
-                      <span className="py-5">
-                        {selectedHotel.room_size_sqft}sqr feet
-                      </span>
+                    <p className="flex gap-2 items-center">
+                      <CiMail></CiMail>  {selectedHotel.contact.email}
                     </p>
                   </div>
                   <div className="card-actions flex justify-between items-center mt-5">

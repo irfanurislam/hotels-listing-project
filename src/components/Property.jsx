@@ -33,23 +33,21 @@ const Property = ({hotel}) => {
 
         </figure>
        
-        <div className="card-body">
+        <div className="card-body px-0 py-5">
             <h3 className="flex gap-2 items-center"><FaLocationArrow></FaLocationArrow> {location}</h3>
           <h2 className="card-title">{hotel_name}</h2>
-          <div className="flex gap-4 items-center py-5 ">
-            <p>
-                <FaHome></FaHome><span className="py-2">{room_number} room</span>
-            </p>
-            <p>
-               <FaBed></FaBed> <span className="py-2">{beds} Bed</span>
-            </p>
-            <p>
-                <FaBath></FaBath><span className="py-2">{baths} Bath</span>
-            </p>
-            <p>
-               <FaArrowsAlt></FaArrowsAlt> <span className="py-5">{room_size_sqft}sqr feet</span>
-            </p>
-          </div>
+          <div className="grid grid-cols-4 gap-4 mt-5">
+                    <FaHome />
+                    <FaBed />
+                    <FaBath />
+                    <FaArrowsAlt />
+                    </div>
+                    <div className="grid grid-cols-4 gap-4 mt-1">
+                        <p>   {room_number} room</p>
+                        <p className="">{beds} Bed</p>
+                        <p className="">{baths} Bath</p>
+                        <p> <span className="">{room_size_sqft}sqr feet</span></p>
+                    </div>
           <div className="card-actions flex justify-between items-center mt-5">
             <h3 className="text-xl font-semibold">${rent_price_per_night} / night</h3>
            <div className="flex gap-3 items-center justify-center">  
