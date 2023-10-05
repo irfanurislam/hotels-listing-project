@@ -1,0 +1,383 @@
+[
+    {
+      "id": 1,
+      "location": "Los Angeles, CA",
+      "country": "USA",
+      "hotel_name": "Sunset Beach Resort",
+      "room_number": "A1",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 700,
+      "rent_price_per_night": 300,
+      "status": "popular",
+      "image": "sunset_beach_room_A1.jpg",
+      "contact": {
+        "phone": "+1-555-123-4567",
+        "email": "info@sunsetbeachresort.com"
+      },
+      "amenities": ["Beachfront", "Pool", "Spa", "Restaurant", "Fitness Center"],
+      "description": "Enjoy a luxurious stay at Sunset Beach Resort, located right on the beautiful beachfront of Los Angeles. Our spacious rooms offer stunning ocean views, and our amenities ensure a relaxing and memorable experience."
+    },
+    {
+      "id": 2,
+      "location": "New York City, NY",
+      "country": "USA",
+      "hotel_name": "Central Park Hotel",
+      "room_number": "101",
+      "beds": 1,
+      "baths": 1,
+      "room_size_sqft": 400,
+      "rent_price_per_night": 250,
+      "status": "popular",
+      "image": "central_park_room_101.jpg",
+      "contact": {
+        "phone": "+1-212-555-7890",
+        "email": "info@centralparkhotel.com"
+      },
+      "amenities": ["Central Park View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Experience the beauty of Central Park from the comfort of Central Park Hotel. Our rooms offer stunning park views, and our restaurant serves delicious cuisine."
+    },
+    {
+      "id": 3,
+      "location": "Mumbai, India",
+      "country": "India",
+      "hotel_name": "Taj Mahal Palace",
+      "room_number": "A101",
+      "beds": 3,
+      "baths": 2,
+      "room_size_sqft": 800,
+      "rent_price_per_night": 500,
+      "status": "popular",
+      "image": "taj_mahal_palace_room_A101.jpg",
+      "contact": {
+        "phone": "+91-22-5555-5555",
+        "email": "info@tajmahalpalace.com"
+      },
+      "amenities": ["Historic Landmark", "Sea View", "Fine Dining", "Spa"],
+      "description": "Stay in the lap of luxury at the iconic Taj Mahal Palace in Mumbai. Enjoy breathtaking sea views, exquisite dining, and impeccable service."
+    },
+    {
+      "id": 4,
+      "location": "Paris, France",
+      "country": "France",
+      "hotel_name": "Eiffel Tower View Hotel",
+      "room_number": "E1",
+      "beds": 2,
+      "baths": 1,
+      "room_size_sqft": 600,
+      "rent_price_per_night": 350,
+      "status": "popular",
+      "image": "eiffel_tower_view_room_E1.jpg",
+      "contact": {
+        "phone": "+33-1-555-555-555",
+        "email": "info@eiffeltowerviewhotel.com"
+      },
+      "amenities": ["Eiffel Tower View", "Restaurant", "Bar", "Spa"],
+      "description": "Experience the magic of Paris with a stay at the Eiffel Tower View Hotel. Our rooms offer breathtaking views of the iconic Eiffel Tower, and our restaurant serves delicious French cuisine."
+    },
+    {
+      "id": 5,
+      "location": "London, UK",
+      "country": "UK",
+      "hotel_name": "Westminster Palace Hotel",
+      "room_number": "W101",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 750,
+      "rent_price_per_night": 400,
+      "status": "popular",
+      "image": "westminster_palace_room_W101.jpg",
+      "contact": {
+        "phone": "+44-20-5555-5555",
+        "email": "info@westminsterpalacehotel.co.uk"
+      },
+      "amenities": ["City View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Enjoy the historic charm of London with a stay at Westminster Palace Hotel. Our comfortable rooms offer stunning views of the city, and our restaurant serves both local and international dishes."
+    },
+    {
+      "id": 6,
+      "location": "Los Angeles, CA",
+      "country": "USA",
+      "hotel_name": "Coastal View Hotel",
+      "room_number": "B1",
+      "beds": 1,
+      "baths": 1,
+      "room_size_sqft": 500,
+      "rent_price_per_night": 200,
+      "status": "popular",
+      "image": "coastal_view_room_B1.jpg",
+      "contact": {
+        "phone": "+1-555-987-6543",
+        "email": "info@coastalviewhotel.com"
+      },
+      "amenities": ["Beach View", "Pool", "Restaurant", "Fitness Center"],
+      "description": "Experience the beauty of the California coast at Coastal View Hotel. Our rooms offer breathtaking views of the ocean, and our beachfront location allows for relaxing walks along the shore."
+    },
+    {
+      "id": 7,
+      "location": "New York City, NY",
+      "country": "USA",
+      "hotel_name": "Times Square Inn",
+      "room_number": "202",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 700,
+      "rent_price_per_night": 350,
+      "status": "popular",
+      "image": "times_square_inn_room_202.jpg",
+      "contact": {
+        "phone": "+1-212-555-5678",
+        "email": "info@timessquareinn.com"
+      },
+      "amenities": ["Times Square View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Immerse yourself in the excitement of New York City with a stay at Times Square Inn. Our rooms provide stunning views of Times Square, and our central location puts you in the heart of the city."
+    },
+    {
+      "id": 8,
+      "location": "Mumbai, India",
+      "country": "India",
+      "hotel_name": "Gateway Hotel",
+      "room_number": "G202",
+      "beds": 3,
+      "baths": 2,
+      "room_size_sqft": 850,
+      "rent_price_per_night": 550,
+      "status": "popular",
+      "image": "gateway_hotel_room_G202.jpg",
+      "contact": {
+        "phone": "+91-22-5555-2222",
+        "email": "info@gatewayhotelindia.com"
+      },
+      "amenities": ["Harbor View", "Fine Dining", "Spa", "Fitness Center"],
+      "description": "Experience the beauty of Mumbai's harbor with a stay at Gateway Hotel. Our rooms offer stunning harbor views, and our fine dining restaurant serves a variety of cuisines."
+    },
+    {
+      "id": 9,
+      "location": "Paris, France",
+      "country": "France",
+      "hotel_name": "Louvre Palace Hotel",
+      "room_number": "L2",
+      "beds": 2,
+      "baths": 1,
+      "room_size_sqft": 650,
+      "rent_price_per_night": 375,
+      "status": "popular",
+      "image": "louvre_palace_room_L2.jpg",
+      "contact": {
+        "phone": "+33-1-555-1234-5678",
+        "email": "info@louvrepalacehotel.fr"
+      },
+      "amenities": ["Louvre View", "Restaurant", "Bar", "Spa"],
+      "description": "Indulge in art and luxury with a stay at Louvre Palace Hotel. Our rooms offer spectacular views of the Louvre Museum, and our central location allows for easy exploration of Paris."
+    },
+    {
+      "id": 10,
+      "location": "London, UK",
+      "country": "UK",
+      "hotel_name": "Big Ben View Hotel",
+      "room_number": "B102",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 800,
+      "rent_price_per_night": 450,
+      "status": "popular",
+      "image": "big_ben_view_room_B102.jpg",
+      "contact": {
+        "phone": "+44-20-5555-1111",
+        "email": "info@bigbenvewhotel.co.uk"
+      },
+      "amenities": ["Big Ben View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Enjoy iconic views of Big Ben with a stay at Big Ben View Hotel. Our comfortable rooms provide stunning vistas of this London landmark, and our restaurant serves British and international cuisine."
+    },
+    {
+      "id": 11,
+      "location": "Los Angeles, CA",
+      "country": "USA",
+      "hotel_name": "Hollywood Hills Inn",
+      "room_number": "C1",
+      "beds": 1,
+      "baths": 1,
+      "room_size_sqft": 550,
+      "rent_price_per_night": 225,
+      "status": "popular",
+      "image": "hollywood_hills_room_C1.jpg",
+      "contact": {
+        "phone": "+1-555-456-7890",
+        "email": "info@hollywoodhillsinn.com"
+      },
+      "amenities": ["Hollywood Hills View", "Pool", "Restaurant", "Fitness Center"],
+      "description": "Experience the glamour of Hollywood with a stay at Hollywood Hills Inn. Our rooms offer stunning views of the iconic Hollywood Hills, and our location allows for easy access to entertainment attractions."
+    },
+    {
+      "id": 12,
+      "location": "New York City, NY",
+      "country": "USA",
+      "hotel_name": "Empire State View Hotel",
+      "room_number": "303",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 750,
+      "rent_price_per_night": 400,
+      "status": "popular",
+      "image": "empire_state_view_room_303.jpg",
+      "contact": {
+        "phone": "+1-212-555-2468",
+        "email": "info@empirestateviewhotel.com"
+      },
+      "amenities": ["Empire State Building View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Enjoy breathtaking views of the Empire State Building with a stay at Empire State View Hotel. Our comfortable rooms provide a unique perspective of this iconic skyscraper."
+    },
+    {
+      "id": 13,
+      "location": "Mumbai, India",
+      "country": "India",
+      "hotel_name": "Marine Drive Inn",
+      "room_number": "M303",
+      "beds": 3,
+      "baths": 2,
+      "room_size_sqft": 900,
+      "rent_price_per_night": 600,
+      "status": "popular",
+      "image": "marine_drive_inn_room_M303.jpg",
+      "contact": {
+        "phone": "+91-22-5555-8888",
+        "email": "info@marinedriveinn.com"
+      },
+      "amenities": ["Marine Drive View", "Restaurant", "Bar", "Spa"],
+      "description": "Experience the beauty of Marine Drive in Mumbai with a stay at Marine Drive Inn. Our rooms offer stunning views of this iconic coastal road, and our spa ensures a relaxing stay."
+    },
+    {
+      "id": 14,
+      "location": "Paris, France",
+      "country": "France",
+      "hotel_name": "Champs-Élysées Hotel",
+      "room_number": "C3",
+      "beds": 2,
+      "baths": 1,
+      "room_size_sqft": 700,
+      "rent_price_per_night": 400,
+      "status": "popular",
+      "image": "champs_elysees_room_C3.jpg",
+      "contact": {
+        "phone": "+33-1-555-9876-5432",
+        "email": "info@champselyseeshotel.fr"
+      },
+      "amenities": ["Champs-Élysées View", "Restaurant", "Bar", "Spa"],
+      "description": "Experience the elegance of the Champs-Élysées with a stay at Champs-Élysées Hotel. Our rooms offer views of this iconic avenue, and our central location allows for convenient shopping and dining."
+    },
+    {
+      "id": 15,
+      "location": "London, UK",
+      "country": "UK",
+      "hotel_name": "Tower Bridge View Hotel",
+      "room_number": "T103",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 850,
+      "rent_price_per_night": 475,
+      "status": "popular",
+      "image": "tower_bridge_view_room_T103.jpg",
+      "contact": {
+        "phone": "+44-20-5555-3333",
+        "email": "info@towerbridgeviewhotel.co.uk"
+      },
+      "amenities": ["Tower Bridge View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Enjoy stunning views of Tower Bridge with a stay at Tower Bridge View Hotel. Our rooms provide a unique perspective of this iconic London landmark."
+    },
+    {
+      "id": 16,
+      "location": "Los Angeles, CA",
+      "country": "USA",
+      "hotel_name": "Santa Monica Beach Resort",
+      "room_number": "D1",
+      "beds": 1,
+      "baths": 1,
+      "room_size_sqft": 600,
+      "rent_price_per_night": 250,
+      "status": "popular",
+      "image": "santa_monica_beach_room_D1.jpg",
+      "contact": {
+        "phone": "+1-555-789-0123",
+        "email": "info@santamonicabeachresort.com"
+      },
+      "amenities": ["Beachfront", "Pool", "Spa", "Restaurant", "Fitness Center"],
+      "description": "Experience the beauty of Santa Monica Beach with a stay at Santa Monica Beach Resort. Our rooms offer direct access to the sandy shores and stunning ocean views."
+    },
+    {
+      "id": 17,
+      "location": "New York City, NY",
+      "country": "USA",
+      "hotel_name": "Broadway Suites",
+      "room_number": "404",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 800,
+      "rent_price_per_night": 450,
+      "status": "popular",
+      "image": "broadway_suites_room_404.jpg",
+      "contact": {
+        "phone": "+1-212-555-4321",
+        "email": "info@broadwaysuiteshotel.com"
+      },
+      "amenities": ["Broadway View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Immerse yourself in the excitement of Broadway with a stay at Broadway Suites. Our rooms offer views of the vibrant theater district, and our central location puts you in the heart of the action."
+    },
+    {
+      "id": 18,
+      "location": "Mumbai, India",
+      "country": "India",
+      "hotel_name": "Bandra Beach Retreat",
+      "room_number": "B303",
+      "beds": 3,
+      "baths": 2,
+      "room_size_sqft": 950,
+      "rent_price_per_night": 650,
+      "status": "popular",
+      "image": "bandra_beach_retreat_room_B303.jpg",
+      "contact": {
+        "phone": "+91-22-5555-7777",
+        "email": "info@bandrabeachretreat.com"
+      },
+      "amenities": ["Beachfront", "Restaurant", "Bar", "Spa", "Fitness Center"],
+      "description": "Relax on the sandy shores of Bandra Beach with a stay at Bandra Beach Retreat. Our rooms offer beachfront views, and our spa ensures a rejuvenating experience."
+    },
+    {
+      "id": 19,
+      "location": "Paris, France",
+      "country": "France",
+      "hotel_name": "Montmartre View Hotel",
+      "room_number": "M4",
+      "beds": 2,
+      "baths": 1,
+      "room_size_sqft": 750,
+      "rent_price_per_night": 425,
+      "status": "popular",
+      "image": "montmartre_view_room_M4.jpg",
+      "contact": {
+        "phone": "+33-1-555-6789-1234",
+        "email": "info@montmartreviewhotel.fr"
+      },
+      "amenities": ["Montmartre View", "Restaurant", "Bar", "Spa"],
+      "description": "Experience the artistic charm of Montmartre with a stay at Montmartre View Hotel. Our rooms offer views of this historic neighborhood, and our location allows for easy exploration of its many attractions."
+    },
+    {
+      "id": 20,
+      "location": "London, UK",
+      "country": "UK",
+      "hotel_name": "Piccadilly Circus Hotel",
+      "room_number": "P203",
+      "beds": 2,
+      "baths": 2,
+      "room_size_sqft": 900,
+      "rent_price_per_night": 500,
+      "status": "popular",
+      "image": "piccadilly_circus_room_P203.jpg",
+      "contact": {
+        "phone": "+44-20-5555-9999",
+        "email": "info@piccadillycircushotel.co.uk"
+      },
+      "amenities": ["Piccadilly Circus View", "Restaurant", "Bar", "Fitness Center"],
+      "description": "Enjoy the vibrant energy of Piccadilly Circus with a stay at Piccadilly Circus Hotel. Our rooms provide views of this iconic London landmark, and our central location puts you at the heart of London's entertainment."
+    }
+  ]
+  
